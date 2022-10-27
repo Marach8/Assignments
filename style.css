@@ -1,0 +1,89 @@
+.ind{
+  background-image:url(https://i.postimg.cc/k5V8nGdw/pexels-photo-753325.jpg);
+  color:white;
+  background-attachment:fixed;
+  background-position:center;
+  background-size:cover;
+  padding:100px
+}
+
+.regist{
+  background-image:url(https://i.postimg.cc/KYTDMDmB/pexels-pixabay-460621.jpg);
+  color:white;
+  background-attachment:fixed;
+  background-position:center;
+  background-size:cover;
+  border-style:inset;
+  border-width:1px;
+  border-color:gold;
+  border-radius:50px;
+  padding:20px
+}
+
+.login{
+  background-image:url(https://i.postimg.cc/MpKDXdbX/e5422a30aeee423cfbd05696f70ad097.jpg);  
+  color:white;
+  background-attachment:fixed;
+  background-position:center;
+  background-size:cover;
+  border-style:inset;
+  border-width:1px;
+  border-color:gold;
+  border-radius:50px; 
+  padding:20px
+}
+
+.success{
+  background-image:url(https://i.postimg.cc/GtHV8BLD/pexels-arnie-chou-927414.jpg);
+  color:white;
+  background-position:center;
+  background-attachment:fixed;
+  background-size:cover;
+  border-radius:10px; 
+  padding:20px
+}
+
+#terms{
+color:gold
+}
+
+h1{text-align:center}
+h3{text-align:center}
+
+#fdiv{text-align:center;
+     padding:10px}
+
+#foot{text-align:center}
+#butt{text-align:center}
+
+.reg:hover{background-color:#d613c3}
+
+
+input{padding:10px;
+    background-color: #ded8d7;
+    text-align:center;
+    border:none;
+    border-radius:10px
+     }
+
+input:hover{background-color:#e5ed9d}
+
+#gender{padding:10px;
+    background-color: #ded8d7;
+    text-align:center;
+    border-radius:10px
+    }
+
+#gender:hover{background-color:#e5ed9d}
+
+#favcolor{padding:10px;
+    background-color: #ded8d7
+    }
+
+#favcolor:hover{background-color:#e5ed9d}
+.reg{padding:15px;
+    width:50%;
+    border-radius:50px;
+    cursor:pointer;
+    background-color:#b2d1d6
+    }
