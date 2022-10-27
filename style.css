@@ -1,89 +1,170 @@
-.ind{
-  background-image:url(https://i.postimg.cc/k5V8nGdw/pexels-photo-753325.jpg);
-  color:white;
-  background-attachment:fixed;
-  background-position:center;
-  background-size:cover;
-  padding:100px
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box
 }
 
-.regist{
-  background-image:url(https://i.postimg.cc/KYTDMDmB/pexels-pixabay-460621.jpg);
-  color:white;
-  background-attachment:fixed;
-  background-position:center;
-  background-size:cover;
-  border-style:inset;
-  border-width:1px;
-  border-color:gold;
-  border-radius:50px;
-  padding:20px
+body{
+  background-color:black;
+  padding:40px 100px;
+  align-items:center;
+  justify-content:center;
+  display:flex;
 }
 
-.login{
-  background-image:url(https://i.postimg.cc/MpKDXdbX/e5422a30aeee423cfbd05696f70ad097.jpg);  
-  color:white;
-  background-attachment:fixed;
-  background-position:center;
-  background-size:cover;
-  border-style:inset;
-  border-width:1px;
-  border-color:gold;
-  border-radius:50px; 
-  padding:20px
+.container{
+  background-color:hsl(0, 0%, 95%);
+  padding:50px;
+  margin:0 auto
 }
 
-.success{
-  background-image:url(https://i.postimg.cc/GtHV8BLD/pexels-arnie-chou-927414.jpg);
-  color:white;
-  background-position:center;
-  background-attachment:fixed;
-  background-size:cover;
-  border-radius:10px; 
-  padding:20px
-}
+ .cards{
+  width:100%;
+  height:50;
+  display:flex;
+  border-radius:5px;
+  overflow:hidden;
+  }
 
-#terms{
-color:gold
-}
+  .card{
+  padding:50px 20px;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:40px;
+  }
 
-h1{text-align:center}
-h3{text-align:center}
-
-#fdiv{text-align:center;
-     padding:10px}
-
-#foot{text-align:center}
-#butt{text-align:center}
-
-.reg:hover{background-color:#d613c3}
-
-
-input{padding:10px;
-    background-color: #ded8d7;
-    text-align:center;
+  .card h2{
+    color:hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+  }
+  
+  .card p{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size:15px;
+    flex-grow:1
+  }
+  
+  .one{
+    background-color:hsl(31, 77%, 52%);
+  }
+  
+  .two{
+    background-color: hsl(184, 100%, 22%);
+  }
+  
+  .three{
+    background-color:hsl(179, 100%, 13%);
+  }
+  
+  .card button{
+    background-color:hsl(0, 0%, 95%);
+    padding:10px 20px;
     border:none;
-    border-radius:10px
-     }
-
-input:hover{background-color:#e5ed9d}
-
-#gender{padding:10px;
-    background-color: #ded8d7;
-    text-align:center;
-    border-radius:10px
-    }
-
-#gender:hover{background-color:#e5ed9d}
-
-#favcolor{padding:10px;
-    background-color: #ded8d7
-    }
-
-#favcolor:hover{background-color:#e5ed9d}
-.reg{padding:15px;
-    width:50%;
-    border-radius:50px;
+    outline:none;
+    border-radius:20px;
+    transition:background-color 0.6s ease
+  }
+  
+  .card button:hover{
+    background-color:transparent;
+    border:2px solid hsl(0, 0%, 95%);
     cursor:pointer;
-    background-color:#b2d1d6
-    }
+    color:hsl(0, 0%, 95%);
+    padding:8px 18px;
+  }
+  
+  .one button{
+    color:hsl(31, 77%, 52%);
+  }
+  
+  .two button{
+    color:hsl(184, 100%, 22%);
+  }
+  
+  .three button{
+    color:hsl(179, 100%, 13%);
+  }
+
+.ref{
+  color:red
+}
+@media screen and (max-width:375px){
+  body{
+    padding:60px 40px;
+  }
+  .cards{
+    flex-direction:column;
+  }
+}
+
+/*Styling for the Grid Layout*/
+
+.body{
+  padding:0;
+  margin:0;
+  box-sizing:border-box; 
+  background-color:#303031;
+}
+
+.cont{
+  width:60%;
+  display:grid;
+  grid-template-columns: repeat(7,1fr);
+  grid-template-rows:repeat(9,1fr);  
+  gap:10px;
+  padding:30px 50px;
+  padding-right:70px;
+  background-color:#1a1e36
+}
+
+.box1{
+    place-items: center;
+    padding:30px;
+  grid-row:1/5;
+  grid-column:1/5;
+  color:#cc4925;
+  background-color:#cc4925
+}
+
+
+.box2{
+  place-items: center;
+  padding:30px;
+  grid-row:1/5;
+  grid-column:5/7;
+  color:#faaf0c;
+  background-color:#faaf0c
+}
+
+
+.box3{
+    place-items: center;
+    padding:30px;
+    grid-row:5/10;
+    grid-column:1/4;
+    color:#11c217;
+    background-color:#11c217
+}
+
+
+.box4{
+    place-items: center;
+    padding:35px;
+    grid-column:4/7;
+    grid-row:5/7;
+    color:#1dc9f0;
+    background-color:#1dc9f0
+}
+
+
+.box5{
+    place-items: center;
+    padding:30px;
+    grid-column:4/7;
+    grid-row:7/10;
+    color:#1dc9f0;
+    background-color:#1dc9f0
+}
+
